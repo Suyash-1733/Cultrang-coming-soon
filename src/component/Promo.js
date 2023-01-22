@@ -31,7 +31,7 @@ export default function Home() {
       <br />
       <div>
         <a href="https://taplink.cc/cultrang23" className="linktree-link" style={{textDecoration: 'none'}}>
-          LinkTree
+          Register Here
         </a>
       </div>
       </div>
