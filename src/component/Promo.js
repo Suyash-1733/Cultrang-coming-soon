@@ -8,24 +8,31 @@ export default function Home() {
       <div className="container">
         <div className="biglogo">
           <img
-            src="https://res.cloudinary.com/duvqri8vt/image/upload/c_scale,q_auto:eco/v1647418471/Cultrang22/logo_mjmavn.webp"
+            src="https://res.cloudinary.com/dwjesc65k/image/upload/v1674363032/cultrang%2723/logo_dnscey.png"
             alt=""
+            width="700"
           />
           {/* <img src="https://res.cloudinary.com/duvqri8vt/image/upload/v1647418471/Cultrang22/logo_mjmavn.png" alt="" /> */}
         </div>
 
         <div className="type-text">
+        <span>Coming Soon</span>
         <TypeWriterEffect
           textStyle={{
             fontFamily: "Bebas Neue",
           }}
-          startDelay={100}
+          startDelay={1000}
+          loop="1"
           cursorColor="white"
-          text="Coming Soon..."
-          typeSpeed={125}
-          loop={false}
+          text="..."
+          typeSpeed={100}
         />
-
+      </div>
+      <br />
+      <div>
+        <a href="https://taplink.cc/cultrang23" className="linktree-link" style={{textDecoration: 'none'}}>
+          LinkTree
+        </a>
       </div>
       </div>
     </div>
